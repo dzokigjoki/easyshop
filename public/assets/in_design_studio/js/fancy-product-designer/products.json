@@ -1,0 +1,23 @@
+[
+  [
+    {
+      "title": "Shirt Front",
+      "thumbnail": "/assets/in_design_studio/js/fancy-product-designer/images/yellow_shirt/front/preview.png",
+      "elements": [
+        {
+          "type": "image",
+          "source": "/assets/in_design_studio/js/fancy-product-designer/images/yellow_shirt/front/base.png",
+          "title": "Base",
+          "parameters": {
+            "left": 325,
+            "top": 329,
+            "colors": "#d59211",
+            "price": 20,
+            "colorLinkGroup": "Base",
+            "fill": false
+          }
+        } 
+      ]
+    }
+  ]
+]

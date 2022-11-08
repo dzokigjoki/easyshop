@@ -1,0 +1,9 @@
+<script src="/assets/global/js/ionrangeslider.js"></script>
+<script src="/assets/global/js/category.js?v=2"></script>
+<script src="/assets/global/js/product.js?v=17"></script>
+<script src="/assets/global/js/cart.js?v=8"></script>
+<script src="/assets/global/js/newsletter.js?v=2"></script>
+<script src="/assets/global/js/toastr.js?v=4"></script>
+<script src="/assets/global/js/promo-code.js"></script>
+<script src="/assets/global/js/wishlist.js?v=2"></script>
+<script src="/assets/global/js/token-refresh.js"></script>

@@ -1,0 +1,40 @@
+<?php
+
+namespace EasyShop\Http\Requests;
+
+use EasyShop\Http\Requests\Request;
+
+class AdminEmployeeRequest extends Request
+{
+    /**
+     * Determine if the user is authorized to make this request.
+     *
+     * @return bool
+     */
+    public function authorize()
+    {
+        return true;
+    }
+
+    /**
+     * Get the validation rules that apply to the request.
+     *
+     * @return array
+     */
+    public function rules()
+    {
+        return [
+            'first_name' => 'required',
+            'last_name' => 'required'  
+        ];
+    }
+
+    public function messages()
+    {
+        return [
+            'first_name.required' => 'Полето \'Име\' е задолжително!',         
+            'last_name.required' => 'Полето \'URL\' е задолжително!',
+            
+        ];
+    }
+}

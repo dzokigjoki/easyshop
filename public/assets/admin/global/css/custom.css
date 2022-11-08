@@ -1,0 +1,44 @@
+.select_wrapper .select2 {
+    float: right;
+    width: 120px !important;
+    margin-right: 10px;
+}
+
+
+
+@media(max-width: 575px) {
+
+    .select_wrapper {
+        margin-top: 10px;
+    }
+}
+
+@media(max-width: 387px) {
+
+    .select_wrapper {
+        float: unset !important;
+        text-align: center;
+    }
+
+    .select_wrapper .select2 {
+        float: unset !important;
+
+        margin: auto;
+    }
+}
+
+.select_wrapper label {
+
+    padding: 7px 5px 0 0;
+}
+
+.field_list_style{
+
+    padding: 0 10px;
+}
+
+.info_red{
+    font-size: 11.5px;
+    margin-top: 9px !important;
+    color: red;
+}
